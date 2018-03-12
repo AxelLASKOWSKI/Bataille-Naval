@@ -1,0 +1,12 @@
+Bataille Naval structurons un peux, au lieu d'utiliser un tableau à 2 dimention pour représenter la grille de jeu, utiliser une structure case pour décrire les case occuper par les bateaux. De même un bateux sera décrit par un enssemble de cases et la flotte de bateau à couler sera représenter par un enssemble de bateau.
+
+1/écrire la structure case composer de 2 champs, ligne et colone des entier
+2/écrire la tructure bateau composer d'un enssemble de n case, on interdit les matrice pour géré notre map
+3/écrire la structure flotte composser d'un enssemble de bateau
+4/ écrire une fonction de création d'une case, elle prend en paramètre la ligne et la colonne associer à la case.
+5/ écrire une fonction de comparaison de 2 case, cette fonction renverra vrais ou faux selon le cas
+6/écrire une fonction de création de bateau,elle renverra une structure bateau correctement remplis
+7/écrire une fonction qui vérifie qu'une case appartien à un bateau, cette fonction renverra vrais ou faux selon le cas. attention, cette fonction de verification devra utiliser votre fonction de compatraison de case
+8/ écrire une fonction qui vérifie qu'une case appartien à une flotte de bateau attention, cette fonction devra utiliser votre fonction de vérification pour un bateau
+9/ le gamplay est libre, écrire le complet du jeu de la bataille naval.
+10/bonne chance
